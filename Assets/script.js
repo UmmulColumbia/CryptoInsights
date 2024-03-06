@@ -54,7 +54,7 @@ const options = {
   headers: {
     
     "x-rapidapi-host": "investing-cryptocurrency-markets.p.rapidapi.com",
-    "x-rapidapi-key": '7a0a70e79cmsheba9b44bf470c54p10c2bajsn08c25edfe4b7',
+    "x-rapidapi-key": 'Api-Key',
   },
 };
 try {
