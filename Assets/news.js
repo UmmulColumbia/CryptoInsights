@@ -35,7 +35,6 @@ async function handler() {
 }
   
 
-
 function displayNewsData(response) {
     const container = document.getElementById('newsContainer');
     if (!container) {
