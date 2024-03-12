@@ -1,9 +1,7 @@
 body{
     background-color: rgb(180, 214, 216);
     background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    height: 100vh; /* Make sure the body covers the full viewport height */
+    height: 100vh; /* the body covers the full viewport height */
     color:black;
     line-height: 1.5;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,25 +11,16 @@ body{
 h1 {
     justify-content: center;
     text-align: center;
-    font-size: 3.5rem; /* Adjust size as needed */
-    color: wheat; /* Choose a color that fits your dashboard's theme */
-    margin-bottom: 30px; /* Adds some space below the heading */
-   
+    font-size: 3.5rem;
+    color: wheat;
+    margin-bottom: 30px;
 }
 
 .header-section {
     background-color:rgb(29, 29, 55);
-    background-repeat: no-repeat;
-    background-position: center; /* Center the background image */
     display: block;
     height: 15%;
     width: 100%;
-} 
-
-h1 {
-   
-   padding: px;
-   
 }
 
 
@@ -42,4 +31,27 @@ h1 {
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(200, 220, 222); /* Slightly lighter shade for smaller screens */
+        font-size: medium; /* Adjust font size for better readability on small devices */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce the font size of headings for small screens */
+        margin-bottom: 20px; /* Reduce the bottom margin of headings */
+    }
+
+    .header-section {
+        height: auto; /* Adjust the height of the header section to be auto for flexibility */
+        padding: 20px 0; /* Added padding to the top and bottom of the header section */
+    }
+
+    #DataDisplay, #apiDataDisplay {
+        margin-top: 10px; /* Reduce the top margin for these elements */
+        padding: 10px; /* Reduce the padding for a more compact layout */
+        border-radius: 2px; /* Slightly reduce the border radius for a subtle adjustment */
+    }
 }

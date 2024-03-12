@@ -42,7 +42,7 @@ body{
     cursor: pointer;
     background-color:  rgb(43, 42, 42);
     white-space: nowrap; /* Prevents text wrapping on the button */
-   color: white;
+    color: white;
     border-radius: 10px;
 }
 
@@ -70,7 +70,8 @@ h1 {
     margin-top: 70px;
 }
 
-#priceDisplay{ display: flex;
+#priceDisplay{
+    display: flex;
     margin-top: 5px;
     padding: 10px;
     background-color: rgb(43, 42, 42);
@@ -81,7 +82,7 @@ h1 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     color: white;
     font-size: 30px;
-    width: 800px;
+    width: 600px;
 }
 .link-container {
     display: flex;
@@ -143,4 +144,31 @@ h1 {
     display: flex;
     justify-content: center; /* Centers the button horizontally */
     align-items: center; /* Centers the button vertically, useful if the container has a specific height */
+}
+
+@media (max-width: 768px) {
+    /* Adjust layout for smaller screens */
+    #stockInputContainer {
+        flex-direction: row; 
+        padding-top: 20px; /* Reduce padding at the top */
+        margin: 20px auto; /* Reduce margin to fit smaller screens */
+    }
+    #stockInput, #fetchStockDataBtn {
+        font-size: 18px; /* Reduce font size for better fit on small screens */
+        padding: 8px; /* Reduce padding */
+    }
+    h1 {
+        font-size: 2.5rem; /* Reduce heading font size */
+        margin-bottom: 20px; /* Reduce space below the heading */
+        margin-top: 30px;
+    }
+    #priceDisplay, .link-container, .button-style, #clearInputBtn {
+        width: 90%; /* Reduce width to fit small screens */
+        font-size: 20px; /* Reduce font size for readability */
+    }
+    .button-style, #clearInputBtn {
+        padding: 8px; /* Reduce padding */
+        width: auto; /* Allow the width to adjust based on content */
+        margin-bottom: 20px; /* Adjust margin */
+    }
 }
