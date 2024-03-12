@@ -1,4 +1,5 @@
 # CryptoInsights
+## Description
 CryptoInsights is a dynamic web application designed to provide users with real-time price information and insights into the cryptocurrency market. The dashboard offers features like fetching current cryptocurrency prices and displaying the latest crypto news. This tool is ideal for investors, enthusiasts, and anyone interested in staying up-to-date with the volatile world of cryptocurrencies.
 
 ## Features
@@ -40,8 +41,15 @@ By fulfilling these acceptance criteria, the Crypto Insights Dashboard will prov
 - Chart.js for data visualization
 - Axios for API requests
 
+## Screenshot
+
+
+## Live-link
+
 ## Contributing
 We welcome contributions to the Crypto Insights Dashboard! Please read our contribution guidelines before submitting pull requests.
 
 ## License
 This project is licensed under the MIT License.
+
+#### Explore the crypto market with CryptoInsights. Happy trading and informed investing!
