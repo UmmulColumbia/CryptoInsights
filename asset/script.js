@@ -2,7 +2,7 @@
 $('#fetchStockDataBtn').click(function(e) {
     e.preventDefault(); // Prevent the default form submission behavior
   
-    const crypto = $('#stockInput').val(); // Get the value from the input field
+    const crypto = $('#stockInput').val().toLowerCase(); // Get the value from the input field and convert the crypto name to lowercase.
     if (!crypto) {
         alert("Please enter a Crypto name.");
         return;
@@ -18,11 +18,13 @@ $('#fetchStockDataBtn').click(function(e) {
 
     // Clear the input field
     document.getElementById('stockInput').value = '';
+    $('#priceDisplay').text(''); // Clear the displayed price 
 
     console.log("Previous Value:", previousValue);
 
     // For persistent storage across sessions:
     localStorage.setItem('previousInput', previousValue);
+
 });
 
 
