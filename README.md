@@ -42,9 +42,15 @@ By fulfilling these acceptance criteria, the Crypto Insights Dashboard will prov
 - Axios for API requests
 
 ## Screenshot
-
+![image](https://github.com/UmmulColumbia/CryptoInsights/assets/156148729/a243c869-1943-4a51-bb52-88c48b4113db)
+![image](https://github.com/UmmulColumbia/CryptoInsights/assets/156148729/c8e733c4-7c1c-4d02-8881-148a1ebcc30a)
+![image](https://github.com/UmmulColumbia/CryptoInsights/assets/156148729/0114cb56-392c-4e72-ba59-20d27f5c6c92)
+![image](https://github.com/UmmulColumbia/CryptoInsights/assets/156148729/5ad249b1-d909-4ab7-aa31-b554553fd19d)
+- Clicking on Read more, it went to original news source.
+![image](https://github.com/UmmulColumbia/CryptoInsights/assets/156148729/5c927547-2d35-492d-8072-145043bc5c32)
 
 ## Live-link
+
 
 ## Contributing
 We welcome contributions to the Crypto Insights Dashboard! Please read our contribution guidelines before submitting pull requests.
