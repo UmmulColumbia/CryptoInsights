@@ -1,0 +1,146 @@
+
+body{
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /*no repeat the image */
+    height: 100vh; /*the body covers the full viewport height */
+}
+
+
+#stockInputContainer {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-direction: row; /* Align items in a row */
+    padding-top: 30px; /* Adds padding at the top */
+    gap: 10px; /* Increases space between the input and button */
+    max-width: 800px;
+    margin: 100px auto; /* Increases top margin and centers the container on the page */
+}
+#stockInput::placeholder{
+    text-align: center; /* Center-align the placeholder text */
+    color: #888; /* Change placeholder text color */
+    font-style: italic; /* Make placeholder text italic */
+    font-weight: bold; /* Make placeholder text bold */
+}
+
+#stockInput, #fetchStockDataBtn {
+    flex: 1; /* Allows both the input and button to grow equally */
+    padding: 10px; /* Uniform padding for visual consistency */
+    font-size: 25px;
+    border: 1px solid #1f1d1d;
+    
+}
+#stockInput{
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    
+}
+#fetchStockDataBtn {
+    cursor: pointer;
+    background-color:  rgb(43, 42, 42);
+    white-space: nowrap; /* Prevents text wrapping on the button */
+   color: white;
+    border-radius: 10px;
+}
+
+#fetchStockDataBtn:hover {
+    background-color: rgb(49, 49, 206);
+}
+
+
+#priceDisplay {
+    display: flex;
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically if there are multiple lines of text or other elements */
+    height: 35px; /* Example height, adjust as needed */
+    width: 100%; /* Ensures the div takes full width of its parent */
+    
+}
+
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5rem; /* Adjust size as needed */
+    color: wheat; /* Choose a color that fits your dashboard's theme */
+    margin-bottom: 30px; /* Adds some space below the heading */
+    margin-top: 70px;
+}
+
+#priceDisplay{ display: flex;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(43, 42, 42);
+    border-radius: 10px;
+    justify-content: center; /* Centers children horizontally */
+    align-items: center;
+    border: 1px solid #1f1d1d;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: white;
+    font-size: 30px;
+    width: 800px;
+}
+.link-container {
+    display: flex;
+    justify-content: center; /* Centers the child horizontally */
+    align-items: center; /* Centers the child vertically (optional, if needed) */
+    height: 100px; /* Adjust the height as necessary */
+}
+
+.button-style {
+    cursor: pointer;
+    background-color:  rgb(43, 42, 42);
+    padding: 10px; /* Uniform padding for visual consistency */
+    font-size: 25px;
+    border: 1px solid #ddd;
+    white-space: nowrap; /* Prevents text wrapping on the button */
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.button-style:hover{
+    background-color: rgb(49, 49, 206);
+}
+
+    /* styling for the clear input button */
+#clearInputBtn {
+    display: flex;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(43, 42, 42);
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    font-size: 25px;
+    justify-content: center; /* Centers children horizontally */
+    align-items: center;
+
+   
+}
+
+/* Hover effect for the button to provide visual feedback */
+#clearInputBtn:hover {
+    background-color:rgb(188, 29, 29);
+}
+
+
+/* New styles for the container to center the button */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically, useful if the container has a specific height */
+}
+.price-display{
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically, useful if the container has a specific height */
+}

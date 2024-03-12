@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <title>Crypto Currency Dashboard</title>
+</head>
+<body style="background-image: url('../images/cryptoCurrency.jpg');">
+    <header>
+    <h1>Crypto Insights Dashboard</h1>
+    </header>  
+    <div id="stockInputContainer">
+        <input type="text" id="stockInput" placeholder="Enter your favourite Crypto">
+        <button id="fetchStockDataBtn">Fetch Crypto Price</button>
+    </div>
+    <div class="button-container">
+        <button id="clearInputBtn">Clear Input</button>
+    </div>
+    <div id="priceDisplaynew"></div>
+    <div class="price-display">
+    <div id="priceDisplay"></div>
+</div>
+    <div id="searchResults"></div>
+    <div class="link-container">
+        <a id="displayNews" href="news.html" class="button-style">Display News</a>
+    </div>
+    <div id="DataDisplay"></div>
+    <div id="apiDataDisplay"></div>
+
+    <!-- Canvas element for the chart -->
+    <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+        <canvas id="myChart"></canvas>
+    </div>
+    <!-- Including jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Including Chart.js from CDN for graph plotting -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <!-- Custom script -->
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
