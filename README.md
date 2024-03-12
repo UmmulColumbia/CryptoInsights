@@ -50,7 +50,7 @@ By fulfilling these acceptance criteria, the Crypto Insights Dashboard will prov
 ![image](https://github.com/UmmulColumbia/CryptoInsights/assets/156148729/5c927547-2d35-492d-8072-145043bc5c32)
 
 ## Live-link
-
+https://ummulcolumbia.github.io/CryptoInsights/
 
 ## Contributing
 We welcome contributions to the Crypto Insights Dashboard! Please read our contribution guidelines before submitting pull requests.
