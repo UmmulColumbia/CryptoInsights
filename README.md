@@ -52,8 +52,8 @@ By fulfilling these acceptance criteria, the Crypto Insights Dashboard will prov
 ## Live-link
 https://ummulcolumbia.github.io/CryptoInsights/
 
-## Contributing
-We welcome contributions to the Crypto Insights Dashboard! Please read our contribution guidelines before submitting pull requests.
+## Credits
+This project was created by Ummul Mukta,Tyler Zhao and Zully Paz as a group project for demonstrating of jQuery,CSS,html and API implementation skills for the Web Development.
 
 ## License
 This project is licensed under the MIT License.
