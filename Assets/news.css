@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(180, 214, 216);
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Make sure the body covers the full viewport height */
+    color:black;
+    line-height: 1.5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5rem; /* Adjust size as needed */
+    color: wheat; /* Choose a color that fits your dashboard's theme */
+    margin-bottom: 30px; /* Adds some space below the heading */
+   
+}
+
+.header-section {
+    background-color:rgb(29, 29, 55);
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    display: block;
+    height: 15%;
+    width: 100%;
+} 
+
+h1 {
+   
+   padding: px;
+   
+}
+
+
+/* Container Styling for Price and News Display */
+#DataDisplay, #apiDataDisplay {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
