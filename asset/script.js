@@ -4,7 +4,7 @@ $('#fetchStockDataBtn').click(function(e) {
   
     const crypto = $('#stockInput').val().toLowerCase(); // Get the value from the input field and convert the crypto name to lowercase.
     if (!crypto) {
-        alert("Please enter a Crypto name.");
+        showModal("Please enter a Crypto name."); // showModal instead of alert
         return;
     }
     console.log("Selected crypto Name:", crypto); 
