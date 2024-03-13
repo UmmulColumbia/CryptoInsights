@@ -2,9 +2,10 @@
 $('#fetchStockDataBtn').click(function(e) {
     e.preventDefault(); // Prevent the default form submission behavior
   
-    const crypto = $('#stockInput').val(); // Get the value from the input field
+    const crypto = $('#stockInput').val().toLowerCase(); // Get the value from the input field
+
     if (!crypto) {
-        alert("Please enter a Crypto name.");
+        showModal("Please enter a Crypto name."); // showModal instead of alert
         return;
     }
     console.log("Selected crypto Name:", crypto); 
@@ -18,6 +19,7 @@ $('#fetchStockDataBtn').click(function(e) {
 
     // Clear the input field
     document.getElementById('stockInput').value = '';
+    $('#priceDisplay').text(''); // Clear the displayed price 
 
     console.log("Previous Value:", previousValue);
 
@@ -53,5 +55,30 @@ function fetchPrice(crypto) {
     });
 }
 
+
+
+// Get the modal
+var modal = document.getElementById("customModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close-button")[0];
+
+// When the user clicks on the button, open the modal 
+function showModal(message) {
+  document.getElementById("modalText").textContent = message;
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
 
