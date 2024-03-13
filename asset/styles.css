@@ -145,6 +145,47 @@ h1 {
     justify-content: center; /* Centers the button horizontally */
     align-items: center; /* Centers the button vertically, useful if the container has a specific height */
 }
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 450px;
+    top: 50px;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color:rgb(158, 60, 60);
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    justify-content: center; /* Centers children horizontally */
+    align-items: center;
+
+  }
+  
+  .close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
 
 @media (max-width: 768px) {
     /* Adjust layout for smaller screens */
